@@ -2,7 +2,7 @@ package zadanie11;
 import java.util.Scanner;
 
 
-public class Zadanie11
+public class Zadanie13
 {
     public static void main(String[] args)
     {
@@ -11,7 +11,7 @@ public class Zadanie11
         int length; 
         
         Scanner keyboard = new Scanner(System.in);
-        System.out.print("Podaj nazwę ulubionego miasta: ");
+        System.out.print("Podaj nazwe ulubionego miasta: ");
         miasto = keyboard.nextLine();
         
         length = miasto.length();
