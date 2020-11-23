@@ -5,13 +5,20 @@ public class Zadanie17
 {
     public static void main(String[] args)
     {
-        int maka = 1.5, masło = 2,75 , cukier = 1.0, ciastko;
+        int ciastka;
+        double maka, cukier, maslo, proporcje;
+        
         Scanner keyboard = new Scanner(System.in);
-        System.out.println("Podaj liczbę ciastek które chcesz upiec");
-        ciastko = keyboard.nextInt();
+        System.out.print("Ile ciastek chcesz zje��?");
+        ciastka = keyboard.nextInt();
         
-        48 = 1.5* mąka + masło + 2.75 * mąka
+        proporcje = 48 / ciastka;
+        maka = 2.75 * proporcje;
+        cukier = 1.5 * proporcje;
+        maslo = 1 * proporcje;
         
-        
+        System.out.print(maka + " " + cukier + " " + maslo);
+      
     }
 }
+
